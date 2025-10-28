@@ -3,13 +3,18 @@ package fundamentals;
 import java.util.List;
 import java.util.Random;
 
+import static fundamentals.Selection.line;
+
 
 public class Iteration {
 
     public static void main(String[] args) {
         plainForLoop();
+        line();
         whileLoop();
+        line();
         doWhileLoop();
+        line();
         int recursiveValue = recursiveExample(5);
         System.out.println("recursiveValue: " + recursiveValue);
         forEachExample();
